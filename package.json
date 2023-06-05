@@ -13,7 +13,9 @@
         "dev:ssr": "ng run ai-english-landing:serve-ssr",
         "serve:ssr": "node dist/ai-english-landing/proxy-server.js",
         "build:ssr": "ng build --prod --base-href /products/ai-english/ && ng run ai-english-landing:server:production && cpx proxy-server.js dist/ai-english-landing",
-        "prerender": "ng run ai-english-landing:prerender"
+        "prerender": "ng run ai-english-landing:prerender",
+        "pages:build": "ng build --prod --base-href ./",
+        "pages:push": "npx ngh --dir=dist/ai-english-landing/browser/"
     },
     "private": true,
     "dependencies": {
@@ -60,6 +62,7 @@
         "@types/jasmine": "~3.6.0",
         "@types/node": "^12.20.4",
         "codelyzer": "^6.0.0",
+        "gh-pages": "^5.0.0",
         "jasmine-core": "~3.6.0",
         "jasmine-spec-reporter": "~5.0.0",
         "karma": "~5.1.0",
