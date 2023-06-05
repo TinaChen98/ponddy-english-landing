@@ -1,0 +1,23 @@
+<footer>
+  <div class="language mobile">
+    <div class="img">
+      <img src="./assets/images/footer_language_icon.svg" alt="footer_language_icon">
+    </div>
+    <select id="language_select" class="select_icon" (change)="checkSelect()">
+      <option class="option_text" value="zh-cn" [selected]="languageService.language==='zh-cn'">简体中文</option>
+      <option class="option_text" value="zh-tw" [selected]="languageService.language==='zh-tw'">繁體中文</option>
+      <option class="option_text" value="ja" [selected]="languageService.language==='ja'">日本語</option>
+    </select>
+  </div>
+  <div class="ponddy-login">
+    <img src="./assets/images/footer_ponddy-logo_img.svg" alt="ponddy-login">
+  </div>
+  <div class="copyright">
+    <div>
+      <span i18n (click)="terms()">服務條款</span> | <span i18n (click)="privacy()">隱私政策</span>
+    </div>
+    <div i18n>Copyright © Ponddy Education Inc.
+    </div>
+    <div i18n>All Rights Reserved.</div>
+  </div>
+</footer>

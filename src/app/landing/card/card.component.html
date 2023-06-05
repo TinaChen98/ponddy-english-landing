@@ -1,0 +1,36 @@
+<section class="card">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="title">
+            <div i18n>龎帝AI</div>
+            <div i18n>加速英語學習</div>
+          </div>
+
+          <div class="card-item">
+            <div i18n class="card-item__title">發音語調不跑偏</div>
+            <div i18n class="card-item__text">多維語音報告，全方位糾正發音</div>
+            <img [class.lang]="languageService.language==='zh-tw'" class="lang-no" src="./assets/images/feature-card_score_tc_img.png" alt="card-item-1-tw">
+            <img [class.lang]="languageService.language==='zh-cn'" class="lang-no" src="./assets/images/feature-card_score_sc_img.png" alt="card-item-1-cn">
+            <img [class.lang]="languageService.language==='ja'" class="lang-no" src="./assets/images/feature-card_score_ja_img.png" alt="card-item-1-js">
+          </div>
+
+          <div class="card-item">
+            <div i18n class="card-item__title">道地美式口音</div>
+            <div i18n class="card-item__text">北美外師原聲示範，母語級連讀想說就說</div>
+            <img [class.lang]="languageService.language==='zh-tw'" class="lang-no" src="./assets/images/feature-card_connected-speech_tc_img.png" alt="card-item-2-tw">
+            <img [class.lang]="languageService.language==='zh-cn'" class="lang-no" src="./assets/images/feature-card_connected-speech_sc_img.png" alt="card-item-2-cn">
+            <img [class.lang]="languageService.language==='ja'" class="lang-no" src="./assets/images/feature-card_connected-speech_ja_img.png" alt="card-item-2-ja">
+          </div>
+
+          <div class="card-item">
+            <div i18n class="card-item__title">智慧學習計畫</div>
+            <div i18n class="card-item__text">每天三句，三個月掌握八成常用語</div>
+            <img [class.lang]="languageService.language==='zh-tw'" class="lang-no" src="./assets/images/feature-card_course-plan_tc_img.png" alt="card-item-3-tw">
+            <img [class.lang]="languageService.language==='zh-cn'" class="lang-no" src="./assets/images/feature-card_course-plan_sc_img.png" alt="card-item-3-cn">
+            <img [class.lang]="languageService.language==='ja'" class="lang-no" src="./assets/images/feature-card_course-plan_ja_img.png" alt="card-item-3-ja">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

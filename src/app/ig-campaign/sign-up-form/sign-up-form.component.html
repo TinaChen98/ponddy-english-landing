@@ -1,0 +1,55 @@
+<form [formGroup]="signUpInfoFormGroup">
+    <div class="form-field">
+        <label>*UserId</label>
+        <input formControlName="UserId" name="UserId"
+
+               [disabled]="user?.id"
+               [value]="user?.id" placeholder="UserId">
+    </div>
+    <div class="form-field">
+        <label>*Email</label>
+        <input formControlName="Email" name="Email"
+               [email]="true"
+               type="email"
+               value="" placeholder="Email">
+    </div>
+    <div class="form-field">
+        <label>*Name</label>
+        <input formControlName="Name" name="Name"
+               type="text"
+               [value]="user?.username" placeholder="Name">
+    </div>
+    <div class="form-field">
+        <label>Phone (with country code)</label>
+        <input formControlName="Phone" name="Phone"
+               value="" placeholder="Phone">
+    </div>
+
+    <div class="form-field">
+        <label>School Name</label>
+        <input formControlName="SchoolName" name="SchoolName"
+               value="" placeholder="SchoolName">
+    </div>
+    <div class="form-field">
+        <label>*Educational level</label>
+            <mat-select placeholder="Please Select" formControlName="EducationanLevel" name="EducationanLevel">
+                <mat-option
+                        value="國中">
+                    小學
+                </mat-option>
+                <mat-option
+                        value="國中">
+                    國中
+                </mat-option>
+                <mat-option
+                        value="、高中">
+                    高中
+                </mat-option>
+            </mat-select>
+    </div>
+    <div class="btn_wrap">
+        <button class="btn_focus-primary" [disabled]="signUpInfoFormGroup.invalid">
+            Continue
+        </button>
+    </div>
+</form>

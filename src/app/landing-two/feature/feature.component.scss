@@ -1,0 +1,179 @@
+.feature {
+    &__content {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+
+        @media (max-width: 991px) {
+            display: block;
+            padding: 40px 24px 0 24px;
+        }
+        
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .top {
+                padding-bottom: 12px;
+
+                @media (max-width: 991px) {
+                    position: relative;
+                    max-width: 392px;
+                    display: flex;
+                    align-items: flex-end;
+                }
+
+                .icon {
+                    padding-bottom: 12px;
+                    
+                    @media (max-width: 991px) {
+                        margin-left: 112px;
+                        position: absolute;
+                        top: 0;
+                        max-width: 100px;
+                        max-height: 100px;
+                        margin-left: 0;
+                        margin-right: 12px;
+                        width: 100px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .ng-lazyloaded {
+                        animation: fadein 1s;
+                    }
+                }
+
+                .title {
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #000000;
+                    max-width: 380px;
+                    
+                    @media (max-width: 991px) {
+                        margin-left: 112px;     
+                        font-size: 24px;
+                        max-width: 240px;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            max-width: 380px;
+
+            @media (max-width: 991px) {
+                margin-left: 112px;
+            }
+
+            .subhead {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: 0.02em;
+                color: #3B9FBE;
+                padding-bottom: 8px;
+            }
+
+            .description {
+                text-align: justify;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.04em;
+                color: #5F6368;
+            }
+
+        }
+        .button {
+            padding-top: 24px;
+
+            @media (max-width: 991px) {
+                padding-top: 18px;
+
+                .btn_focus-primary {
+                    width: 100%;
+                    padding: 8px 24px;
+                }
+            }
+        }
+
+        .img {
+            position: relative;
+            width: 380px;
+            @media (max-width: 991px) {
+                padding-top: 32px;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+
+            @media (max-width: 767px) {
+                .contents-img-w {
+                    display: none;
+                }
+            }
+
+            img {
+                position: absolute;
+                bottom: 0;
+                max-width: 380px;
+
+                @media (max-width: 991px) {
+                    max-width: 350px;
+                    &.pos-r {
+                        display: none;
+                    }
+                }
+                
+                @media (max-width: 767px) {
+                    &.pos-r {
+                        position: absolute;
+                        right: -24px;
+                        display: flex;
+                    }
+                }
+
+                @media (max-width: 320px) {
+                    max-width: 320px;
+                }
+            }
+
+            .ng-lazyloaded {
+                animation: slip_in 1s;
+            }
+
+            &.m-l {
+                margin-left: 42px;
+                @media (max-width: 991px) {
+                    margin-left: initial;
+                }
+            }
+
+            &.m-r {
+                margin-right: 42px;
+
+                @media (max-width: 991px) {
+                    margin-right: initial;
+                }
+            }
+        }
+        
+    }
+    
+    .mobile {
+        display: none;
+    
+        @media (max-width: 992px) {
+          display: flex;
+        }
+      }
+    
+      .web {
+        display: flex;
+    
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+}

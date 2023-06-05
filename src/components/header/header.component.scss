@@ -1,0 +1,62 @@
+.navbar {
+  background: rgb(255 255 255 / 50%);
+  backdrop-filter: blur(16px);
+  height: 75px;
+  box-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: all .5s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+
+  &.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    justify-content: center;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  // padding: 12px 24px;
+
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 12px 24px;
+    .ponddy-logo {
+      cursor: pointer;
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-image: url(https://ponddy-ai-english.s3.us-west-2.amazonaws.com/landing/mobile/app_icon.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-right: 16px!important;
+      border-radius: 5px;
+    }
+    .title-text {
+      letter-spacing: 2px;
+      color: #576168;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  .btn_focus-primary {
+    min-width: 48px;
+    margin: 12px 24px 12px 0px!important;
+  }
+  .btn_focus-primary_ja {
+    padding: 1px 24px 13px 24px;
+    width: 64px;
+    height: 34px;
+  }
+}

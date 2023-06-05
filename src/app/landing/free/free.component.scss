@@ -1,0 +1,33 @@
+.free {
+  padding: 64px 0 40px 0;
+  background: linear-gradient(108.46deg, #6ACFED 0%, #99F1F1 100%);
+
+  .text-center {
+    text-align: center;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 125%;
+  }
+
+  .download {
+    margin-top: 48px;
+    #bottom_download_ios {
+      display: block;
+    }
+    img {
+      margin-bottom: 24px;
+    }
+  }
+}

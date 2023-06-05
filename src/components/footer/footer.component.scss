@@ -1,0 +1,94 @@
+footer {
+  font-family: Ponddy-NotoRubik;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 32px 12px;
+  margin: 0;
+  background: #2D3942;
+
+
+  .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 179px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    .img {
+
+      padding: 10px 0px 9px 22px;
+    }
+
+    select {
+      background: #2D3942;
+      color: #FFFFFF;
+      letter-spacing: 1px;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 12px 56px 12px 10px;
+      border: none;
+      border-left: none;
+
+      .option_text {
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0px 8px;
+        color: #2d3942;
+      }
+
+      &.select_icon {
+        background: url(https://ponddy-ai-english.s3.us-west-2.amazonaws.com/landing/mobile/footer_dropdown_icon.svg);
+        -webkit-appearance: none;
+        background-repeat: no-repeat;
+        background-position-x: 80%;
+        background-position-y: center;
+      }
+    }
+  }
+
+  .ponddy-login {
+    margin-top: 32px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+    .br_ja {
+      display: block;
+    }
+    span {
+      cursor: pointer;
+    }
+  }
+
+}
+
+
+
+.product-logo {
+  margin: 20px 32px;
+  max-width: 26vw;
+}

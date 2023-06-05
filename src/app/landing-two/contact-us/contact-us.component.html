@@ -1,0 +1,45 @@
+<section id="contact-us" class="contact-us">
+    <div class="container">
+      <div class="row" [class.justify-content-center]="mobile">
+        <div class="contact-us__content col-11 col-md-12">
+          <div class="title">
+            聯繫我們
+          </div>
+          <div class="description">
+            <div>
+              您對於我們有任何疑問或建議嗎？
+            </div>
+            <div>
+              我們期盼您能與我們聯繫！
+            </div>
+          </div>
+          
+          <form [formGroup]="checkoutForm" (submit)="sendEmail($event)">
+            <div class="form">
+              <div class="content-email">
+                <input type="email" name="email" formControlName="email" placeholder="請輸入您的電子郵件" (keyup)="onEmail($event)">
+                <p *ngIf="email==false" style="margin: 0;color: #F86B82;">Email 格式錯誤</p>
+              </div>
+              <div class="content-text" >
+                <textarea placeholder="請在此處留下您的疑問或建議" (keyup)="onQuestions($event)" name="questions" formControlName="questions"></textarea>
+              </div>
+              <div class="re-captcha">
+                <re-captcha
+                  #captchaRef="reCaptcha"
+                  (resolved)="resolved($event)"
+                  (error)="onError($event)"
+                  errorMode="handled"
+                  size="invisible"
+                ></re-captcha>
+              </div>
+            </div>
+            <div>
+              <input id="send-contact-us" type="submit" value="Send" class="btn_general-primary text_btn" [class.contact-us__btn__disabled]="!onDisabled" [disabled]="!onDisabled">
+              <!-- <input id="send-contact-us" type="submit" (click)="captchaRef.execute()" value="Send" class="btn_general-primary text_btn" [class.contact-us__btn__disabled]="!onDisabled" [disabled]="!onDisabled"> -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  

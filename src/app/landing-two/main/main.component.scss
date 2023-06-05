@@ -1,0 +1,108 @@
+.main {
+    background: linear-gradient(180deg, #F0FCFF 20.6%, #FFFFFF 43.52%, #F0FCFF 82.58%);
+    margin-top: 60px;
+    padding-top: 48px;
+    padding-bottom: 58px;
+
+    @media (max-width: 991px) {
+        padding-top: 24px;
+    }
+
+    .iconify_wrap {
+        animation: toggle 0.6s alternate infinite;
+        position: absolute;
+        right: 0;
+        bottom: 16px;
+        left: calc(50% - 25px);
+        z-index: 15;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        width: 64px;
+        height: auto;
+
+        @media (max-width: 991px) {
+            bottom: 0;
+        }
+
+        img {
+            box-shadow: 0px 0px 16px rgba(45, 57, 66, 0.1);
+            border-radius: 50px;
+        }
+    }
+
+    .btn-back {
+        cursor: pointer;
+        position: fixed;
+        z-index: 2;
+        bottom: 36px;
+        right: 36px;
+        border-radius: 50px;
+
+        &:hover {
+            animation: toggle 0.6s alternate infinite;
+        }
+
+        @media (max-width: 991px) {
+            bottom: 24px;
+            right: 24px;
+
+            &:hover {
+                animation: none;
+            }
+        }
+    }
+
+    &__content {
+        text-align: center;
+        .title {
+            font-weight: 900;
+            font-size: 44px;
+            background: linear-gradient(180deg, #329FEC 0%, #6D3DD5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0px 3px 12px rgba(21, 79, 133, 0.25);
+            padding-bottom: 24px;
+        }
+    
+        .description {
+            font-weight: 700;
+            font-size: 28px;
+            color: #214962;
+            display: inline-block;
+            border-bottom: 1px solid;
+            padding-bottom: 4px;
+
+            @media (max-width: 991px) {
+                font-size: 24px;
+            }
+        }
+    }
+
+    &__img {
+        max-width: 500px;
+        padding-top: 48px;
+        height: 691px;
+
+        .ng-lazyloaded {
+            animation: fadein 1s;
+        }
+
+        @media (max-width: 991px) {
+            max-width: 392px;
+            padding-top: 24px;
+            height: 599px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes toggle {
+    to {
+      transform: translateY(-10px) ;
+    }
+}

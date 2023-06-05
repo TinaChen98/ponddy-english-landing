@@ -1,0 +1,20 @@
+<section id="main" class="main">
+  <div *ngIf="iconifyWrap" id="go-to-download" class="iconify_wrap" (click)="smoothScroll()">
+    <img id="go-to-download" src="./assets/images/first-screen_scroll-down_btn.svg" alt="ponddy-ai-english-go-to-download">
+  </div>
+  <div *ngIf="!iconifyWrap" id="back-to-top" class="btn-back" (click)="topScroll()">
+    <img id="back-to-top" src="./assets/images/landing-two/back-to-top.svg" alt="ponddy-ai-english-back-to-top">
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="main__content col-11 col-md-12">
+          <div class="title">AI English</div>
+          <div class="description">流利英語  AI 幫你</div>
+        </div>
+
+        <div class="main__img">
+          <img [defaultImage]="'./assets/images/landing-two/main.png'" [lazyLoad]="'./assets/images/landing-two/main.png'" alt="ponddy-ai-english">
+        </div>
+    </div>
+  </div>
+</section>

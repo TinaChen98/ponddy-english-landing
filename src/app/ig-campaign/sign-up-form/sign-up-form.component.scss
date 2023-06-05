@@ -1,0 +1,81 @@
+.form-field {
+    display: inline-grid;
+    width: 100%;
+    max-width: 296px;
+    margin-bottom: 16px;
+
+    label {
+        font-size: 16px;
+        line-height: 22px;
+        color: #576168;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    .alert_message {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        color: #EA4B65;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    input {
+        padding: 10px 12px;
+        border: 1px solid #D5D7D9;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        &.ng-pristine.ng-invalid {
+            border: 1px solid #D5D7D9;
+        }
+
+        &.ng-invalid {
+            border: 1px solid #EA4B65;
+        }
+
+        &.ng-valid {
+            border: 1px solid #2cc895;
+        }
+
+        &[placeholder] {
+            font-size: 20px;
+            line-height: 36px;
+            letter-spacing: 1px;
+        }
+    }
+
+    mat-select {
+        padding: 10px 12px;
+        background: #FFFFFF;
+        border: 1px solid #D5D7D9;
+        box-sizing: border-box;
+        border-radius: 4px;
+        min-height: 56px;
+
+        &.ng-valid {
+            border: 1px solid #2cc895;
+        }
+
+        ::ng-deep {
+            .mat-select-trigger {
+                height: 2.2rem;
+            }
+
+            .mat-select-placeholder {
+                font-size: 20px;
+                line-height: 36px;
+                letter-spacing: 1px;
+                color: #D5D7D9;
+            }
+
+            .mat-select-value {
+                text-align: left;
+                font-size: 20px;
+                line-height: 36px;
+            }
+        }
+
+    }
+}

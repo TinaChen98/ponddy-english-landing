@@ -1,0 +1,54 @@
+<section class="feature">
+  <div>
+    <ng-container *ngFor="let content of contents">
+      <div [style.background-color]="content.bgColor">
+        <div class="feature__content">
+          <div *ngIf="content.id%2 === 0" class="img web" [class.m-r]="content.id%2 === 0" [style.height]="content.height">
+            <img [defaultImage]="content.img" [lazyLoad]="content.img" [alt]="'ponddy-ai-english-'+content.title1+content.title2">
+          </div>
+          <div class="left">
+            <div>
+              <div class="top">
+                <div class="icon">
+                  <img [lazyLoad]="content.icon" [alt]="'ponddy-ai-english-icon-'+content.title1+content.title2">
+                </div>
+                <div class="title">
+                  <div>
+                    {{ content.title1 }}
+                  </div>
+                  <div>
+                    {{ content.title2 }}
+                  </div>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="subhead">
+                  {{ content.subhead }}
+                </div>
+                <div class="description">
+                  {{ content.description }}
+                </div>
+                <div *ngIf="content.contactUs" class="button">
+                  <a href="#" id="contact-us-feature" class="btn_focus-primary" (click)="smoothScroll()">聯繫我們</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="content.id%2 === 1" class="img web" [class.m-l]="content.id%2 === 1" [style.height]="content.height">
+            <ng-container *ngIf="content.id != 5; else img5W">
+              <img [defaultImage]="content.img" [lazyLoad]="content.img" [alt]="'ponddy-ai-english-'+content.title1+content.title2">
+            </ng-container>
+            <ng-template #img5W>
+              <img class="web" [defaultImage]="contentsImgW" [lazyLoad]="contentsImgW" [alt]="'ponddy-ai-english-'+content.title1+content.title2">
+            </ng-template>
+            
+          </div>
+          <div class="img mobile" [style.height]="content.height">
+            <img *ngIf="content.id === 5" class="contents-img-w" [defaultImage]="contentsImgW" [lazyLoad]="contentsImgW" [alt]="'ponddy-ai-english-'+content.title1+content.title2">
+            <img [defaultImage]="content.img" [lazyLoad]="content.img" [class.pos-r]="content.id === 5"  [alt]="'ponddy-ai-english-'+content.title1+content.title2">
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</section>

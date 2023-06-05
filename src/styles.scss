@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "src/assets/font/PonddyNotoRubik";
+@import "src/assets/ponddy-guidline.scss";
+@import "src/assets/bootstrap-grid";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+@import "~@angular/cdk/overlay-prebuilt.css";
+
+@font-face {
+    font-family: "Twkai";
+    src: url("https://ponddychinese-resources.s3-us-west-2.amazonaws.com/fonts/TW-Kai/TW-Kai-98_1.woff") format("woff"), url("https://ponddychinese-resources.s3-us-west-2.amazonaws.com/fonts/TW-Kai/TW-Kai-98_1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FZKai";
+    src: url("https://s3-us-west-2.amazonaws.com/ponddychinese-resources/fonts/FZKai/FZKTJW--GB1-0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/ponddychinese-resources/fonts/FZKai/FZKTJW--GB1-0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/ponddychinese-resources/fonts/FZKai/FZKTJW--GB1-0.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    outline: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html:lang(zh-Hant) {
+    body,
+    * {
+        // font-family: Ponddy-NotoRubik, "Twkai", serif !important;
+        font-family: 'Ponddy-NotoRubik', Microsoft Jhenghei, 'Heiti TC', 'WenQuanYi Zen Hei', sans-serif;
+    }
+}
+
+html:lang(zh-Hans) {
+    body,
+    * {
+        // font-family: Ponddy-NotoRubik, "Twkai", serif !important;
+        font-family: 'Ponddy-NotoRubik', Microsoft Jhenghei, 'Heiti TC', 'WenQuanYi Zen Hei', sans-serif;
+    }
+}
+
+html:lang(ja) {
+    body,
+    * {
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+}
+
+.lang-no {
+    display: none;
+}
+.lang {
+    display: inline;
+}
+
+.grecaptcha-badge { 
+  visibility: hidden; 
+}

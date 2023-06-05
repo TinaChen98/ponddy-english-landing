@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ja" target-language="ja" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="78193fd72f836e32103fef03151204def5cfde51" datatype="html">
+        <source>Ponddy AI</source>
+        <target>Ponddy AI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3fa45f3bcbcafcd295c50d0f67e5d4b50bc7c2a" datatype="html">
+        <source>英語勉強の効率向上</source>
+        <target>英語勉強の効率向上</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96df35f7d13b6b4809fc9a801f9e7b4eeb734c55" datatype="html">
+        <source>正しい発音を習得する</source>
+        <target>正しい発音を習得する</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f2243116539e63c39775f0d0cfb5e8d52f98345" datatype="html">
+        <source>精確な音声レポートで発音を極める</source>
+        <target>精確な音声レポートで発音を極める</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dfcac37a3c1f46e006fbbd846a0dee10b813135" datatype="html">
+        <source>本場のアメリカ発音</source>
+        <target>本場のアメリカ発音</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89eb2e091cb73881b060fd4999a30d66d37fddbb" datatype="html">
+        <source>アメリカ人先生から母語話者の話し方を学ぶ</source>
+        <target>アメリカ人先生から母語話者の話し方を学ぶ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d02f6562379fbf80abc345daff2e9b90e3c7cbdc" datatype="html">
+        <source>スマート学習プラン</source>
+        <target>スマート学習プラン</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76f3d2a94ce27b13ec20f36a4f1f3e9e430f7125" datatype="html">
+        <source>三ヶ月で八割の頻出単語を完全マスター</source>
+        <target>三ヶ月で八割の頻出単語を完全マスター</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/card/card.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5bdde610d6c35cfe1abed8027feff7e876ff18a" datatype="html">
+        <source>無料体験レッスンをご用意しております。</source>
+        <target>無料体験レッスンをご用意しております。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/free/free.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8eebaf73d1bf29f2d7db0242d1d4224a82ba70ec" datatype="html">
+        <source>今すぐダウンロードしてください。</source>
+        <target>今すぐダウンロードしてください。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/free/free.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d0860f8b5c0aa5190e415ed4e6cbc5aad9da23d" datatype="html">
+        <source>口で発音力を</source>
+        <target>口で発音力を</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4889b35bc46eb1c62b684eaa7c46062d66857457" datatype="html">
+        <source>どんどん鍛え上げよう!</source>
+        <target>どんどん鍛え上げよう!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba48ed52a089aa29486bfcd532e778bc1c2547b8" datatype="html">
+        <source>ご要望に応える</source>
+        <target>ご要望に応える</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/topics/topics.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ea21127dd5a3af4180d325797838053b22cf58e5" datatype="html">
+        <source>様々なテーマ</source>
+        <target>様々なテーマ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/topics/topics.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="903a413431dd1eba234f449890d33366c23500f1" datatype="html">
+        <source>サービス規約</source>
+        <target>サービス規約</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="015b92b8e3345c8825ffa7fb8ba7909e98b3466d" datatype="html">
+        <source>プライベートポリシー</source>
+        <target>プライベートポリシー</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="288867a50206ceeb9f1ea39bd975391ac48963c1" datatype="html">
+        <source>コピーライトポリシー</source>
+        <target>コピーライトポリシー</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa2d95a4ea8343bfc54a7472b4399c05202aa514" datatype="html">
+        <source>ダウンロード</source>
+        <target>ダウンロード</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35f355e0a78bca9d251e107793e243880980b670" datatype="html">
+        <source>AIで会話力を高める</source>
+        <target>AIで会話力を高める</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d29bc2c1b7ed3c1a7cfb5edc2839b90518ed2524" datatype="html">
+        <source>ビッグデータ分析</source>
+        <target>ビッグデータ分析</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="687b37b6d04c0793dc80e5d242d939111612ca6f" datatype="html">
+        <source>を通して</source>
+        <target>を通して</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38af1ac12ee759545bb8dbbde72253574850b732" datatype="html">
+        <source>学習者にとって</source>
+        <target>学習者にとって</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a375c204e414c93f349a2bc4af61742f787e463a" datatype="html">
+        <source>実用性のある</source>
+        <target>実用性のある</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c485aa8dcc39e9b1eabf918ed97718639113f934" datatype="html">
+        <source>言葉とテーマを選び出し、最短の時間で</source>
+        <target>言葉とテーマを選び出し、最短の時間で</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ead32889e6b01fe2a0eee3985c3c6e3c0a3e97c" datatype="html">
+        <source>言語の壁を突破させ、</source>
+        <target>言語の壁を突破させ、</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c30f8b7321239e1ebd8bfb55d486877d9f1780d" datatype="html">
+        <source>英語を流暢に話せる</source>
+        <target>英語を流暢に話せる</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e9918b3db07880d84bf7fa89a4445cacee7c438" datatype="html">
+        <source>という目標を達成させます。
+</source>
+        <target>という目標を達成させます。
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/open/open.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c676ca4ce14bbca19043050e9c5aef8901ad59e" datatype="html">
+        <source>Copyright © Ponddy Education Inc.</source>
+        <target>Copyright © Ponddy Education Inc.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a7414ee773f7a22eb912b74d24d8ba15a0a54ed" datatype="html">
+        <source>All Rights Reserved.</source>
+        <target>All Rights Reserved.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca632026d44812598053645711e41b6fb0c60caa" datatype="html">
+        <source>Ponddy AI English</source>
+        <target>Ponddy AI English</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
